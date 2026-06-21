@@ -4,6 +4,7 @@
   "description": "Simple interactive stopwatch with Start, Pause, Lap, and Reset.",
   "main": "app.js",
   "scripts": {
+    "build": "mkdir -p public && cp index.html styles.css app.js README.md public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
